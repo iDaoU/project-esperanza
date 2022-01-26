@@ -26,9 +26,9 @@ export const decorators = [
       components: { wrapped },
       template: `
         <v-app>
-          <v-container fluid>
+          <v-main>
             <wrapped />
-          </v-container>
+          </v-main>
         </v-app>
       `
     })
